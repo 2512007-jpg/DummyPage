@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Café Komorebi | 木漏れ日のカフェ</title>
-  <meta name="description" content="自家焙煎コーヒーと手作りスイーツの店、Café Komorebi。ゆったりとした時間をお過ごしください。">
+  <title>Book Café Komorebi | 本を楽しめるカフェ</title>
+  <meta name="description" content="コーヒーを片手に、好きな本とゆっくり過ごせるブックカフェ。店内の本は自由に読めます。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Shippori+Mincho:wght@500;700&display=swap" rel="stylesheet">
@@ -12,17 +12,17 @@
 </head>
 <body>
   <header class="header" id="top">
-    <a class="logo" href="#top">Café Komorebi</a>
+    <a class="logo" href="#top">Book Café Komorebi</a>
     <button class="menu-toggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="nav">
       <span></span><span></span><span></span>
     </button>
     <nav class="nav" id="nav">
       <ul>
-        <li><a href="#about">私たちについて</a></li>
+        <li><a href="#about">コンセプト</a></li>
         <li><a href="#menu">メニュー</a></li>
-        <li><a href="#gallery">店内の様子</a></li>
+        <li><a href="#gallery">本と空間</a></li>
         <li><a href="#access">アクセス</a></li>
-        <li><a href="#contact">お問い合わせ</a></li>
+        <li><a href="#contact">リクエスト・お問い合わせ</a></li>
       </ul>
     </nav>
   </header>
@@ -30,20 +30,20 @@
   <main>
     <section class="hero">
       <div class="hero-inner">
-        <p class="hero-sub">Handroasted Coffee &amp; Sweets</p>
-        <h1>木漏れ日の下で、<br>ゆっくりと一杯を。</h1>
-        <p class="hero-text">自家焙煎のコーヒーと、毎朝焼き上げるスイーツ。<br>日常の途中に、ほっとできる場所です。</p>
+        <p class="hero-sub">Books &amp; Coffee</p>
+        <h1>一冊と一杯で、<br>時間を忘れる場所。</h1>
+        <p class="hero-text">約3,000冊の本が並ぶ、小さなブックカフェ。<br>店内の本は自由に手に取って、ゆっくりお読みいただけます。</p>
         <a class="btn" href="#menu">メニューを見る</a>
       </div>
     </section>
 
     <section class="section" id="about">
       <div class="container two-col">
-        <div class="about-visual" role="img" aria-label="コーヒーを淹れるイメージ"></div>
+        <div class="about-visual" role="img" aria-label="本棚に囲まれた読書席のイメージ"></div>
         <div>
-          <h2 class="section-title"><span>About</span>私たちについて</h2>
-          <p>Café Komorebi は、2018年に開店した小さなカフェです。厳選した豆を店内の焙煎機で少量ずつ焙煎し、一杯ずつ丁寧にハンドドリップでお淹れします。</p>
-          <p>スイーツはすべて店内で手作り。地元の農家さんから届く旬の素材を使い、やさしい甘さに仕上げています。</p>
+          <h2 class="section-title"><span>Concept</span>本を楽しめるカフェです</h2>
+          <p>Book Café Komorebi は、「本を読む時間そのものを楽しむ」ためのカフェです。小説、エッセイ、写真集、絵本まで、店主が選んだ約3,000冊を自由に読めます。</p>
+          <p>気になった本は、そのまま席へ。自家焙煎のコーヒーやできたてのスイーツと一緒に、お気に入りの一冊を探してください。読書に集中できる静かな席も、おしゃべりできる席もあります。</p>
         </div>
       </div>
     </section>
@@ -55,39 +55,46 @@
           <button class="tab active" role="tab" aria-selected="true" data-target="drink">ドリンク</button>
           <button class="tab" role="tab" aria-selected="false" data-target="food">フード</button>
           <button class="tab" role="tab" aria-selected="false" data-target="sweets">スイーツ</button>
+          <button class="tab" role="tab" aria-selected="false" data-target="bookset">読書セット</button>
         </div>
 
         <ul class="menu-list active" id="drink">
-          <li><div><h3>本日のブレンド</h3><p>やさしい酸味とコクのバランス</p></div><span class="price">¥480</span></li>
-          <li><div><h3>ハンドドリップ(シングルオリジン)</h3><p>日替わりで3種類をご用意</p></div><span class="price">¥600</span></li>
+          <li><div><h3>本日のブレンド</h3><p>長時間の読書にも合う、すっきりとした味わい</p></div><span class="price">¥480</span></li>
+          <li><div><h3>おかわりコーヒー</h3><p>2杯目以降はこちら(ブレンドのみ)</p></div><span class="price">¥300</span></li>
           <li><div><h3>カフェラテ</h3><p>ミルクの甘みを引き出した一杯</p></div><span class="price">¥550</span></li>
-          <li><div><h3>抹茶オレ</h3><p>京都産の抹茶を使用</p></div><span class="price">¥600</span></li>
-          <li><div><h3>自家製ジンジャーエール</h3><p>スパイスを効かせた大人の味</p></div><span class="price">¥550</span></li>
+          <li><div><h3>ほうじ茶ラテ</h3><p>夜の読書にもおすすめのカフェインレス</p></div><span class="price">¥580</span></li>
+          <li><div><h3>ホットチョコレート</h3><p>ミステリーのお供に</p></div><span class="price">¥600</span></li>
         </ul>
 
         <ul class="menu-list" id="food">
+          <li><div><h3>片手で食べられるホットサンド</h3><p>ページをめくる手が汚れにくい、ひとくちサイズ</p></div><span class="price">¥800</span></li>
           <li><div><h3>厚切りトースト</h3><p>自家製バターとはちみつ添え</p></div><span class="price">¥650</span></li>
-          <li><div><h3>ホットサンド</h3><p>ハムとチーズ、季節の野菜</p></div><span class="price">¥850</span></li>
           <li><div><h3>季節のスープセット</h3><p>パンとドリンク付き</p></div><span class="price">¥1,100</span></li>
         </ul>
 
         <ul class="menu-list" id="sweets">
           <li><div><h3>バスクチーズケーキ</h3><p>濃厚でなめらかな口どけ</p></div><span class="price">¥600</span></li>
-          <li><div><h3>季節のタルト</h3><p>旬のフルーツをたっぷりと</p></div><span class="price">¥700</span></li>
           <li><div><h3>焼きたてスコーン</h3><p>クロテッドクリーム、ジャム付き</p></div><span class="price">¥450</span></li>
+          <li><div><h3>本の形のクッキー</h3><p>プレーンと抹茶の2種類</p></div><span class="price">¥350</span></li>
         </ul>
-        <p class="note">価格は税込です。</p>
+
+        <ul class="menu-list" id="bookset">
+          <li><div><h3>ゆったり読書セット(2時間)</h3><p>ドリンク1杯とおかわりコーヒー、焼き菓子付き</p></div><span class="price">¥1,200</span></li>
+          <li><div><h3>一日読書パス</h3><p>1日滞在可能。ドリンク2杯とランチ付き</p></div><span class="price">¥2,500</span></li>
+          <li><div><h3>店主のおすすめ「一冊と一杯」</h3><p>気分を伝えると、本とドリンクを選びます</p></div><span class="price">¥900</span></li>
+        </ul>
+        <p class="note">価格は税込です。店内の本はお席でのみお読みいただけます。</p>
       </div>
     </section>
 
     <section class="section" id="gallery">
       <div class="container">
-        <h2 class="section-title center"><span>Gallery</span>店内の様子</h2>
+        <h2 class="section-title center"><span>Books &amp; Space</span>本と空間</h2>
         <div class="gallery">
-          <div class="g-item g1" role="img" aria-label="カウンター席"></div>
-          <div class="g-item g2" role="img" aria-label="窓際の席"></div>
-          <div class="g-item g3" role="img" aria-label="スイーツ"></div>
-          <div class="g-item g4" role="img" aria-label="コーヒー豆"></div>
+          <div class="g-item g1" role="img" aria-label="壁一面の本棚"></div>
+          <div class="g-item g2" role="img" aria-label="窓際の静かな読書席"></div>
+          <div class="g-item g3" role="img" aria-label="本と一緒に楽しむスイーツ"></div>
+          <div class="g-item g4" role="img" aria-label="古い装丁の本"></div>
         </div>
         <p class="note">※ 写真は仮の配色です。実際の写真に差し替えてください。</p>
       </div>
@@ -100,9 +107,10 @@
           <dl class="info">
             <dt>住所</dt><dd>〒000-0000 東京都○○区△△ 1-2-3</dd>
             <dt>最寄り駅</dt><dd>○○駅 徒歩5分</dd>
-            <dt>営業時間</dt><dd>8:00 - 18:00(L.O. 17:30)</dd>
+            <dt>営業時間</dt><dd>10:00 - 20:00(L.O. 19:30)</dd>
             <dt>定休日</dt><dd>毎週水曜日</dd>
-            <dt>席数</dt><dd>20席(テラス席あり)</dd>
+            <dt>席数</dt><dd>24席(静かな読書席10席、会話OK席14席)</dd>
+            <dt>蔵書</dt><dd>約3,000冊(購入・リクエストも可能)</dd>
           </dl>
         </div>
         <div class="map" role="img" aria-label="地図のプレースホルダー">地図をここに埋め込みます</div>
@@ -111,7 +119,8 @@
 
     <section class="section" id="contact">
       <div class="container narrow">
-        <h2 class="section-title center"><span>Contact</span>お問い合わせ</h2>
+        <h2 class="section-title center"><span>Request &amp; Contact</span>リクエスト・お問い合わせ</h2>
+        <p class="note">読んでみたい本のリクエストも、こちらから受け付けています。</p>
         <form class="form" id="contact-form" novalidate>
           <label>お名前
             <input type="text" name="name" required autocomplete="name">
@@ -119,7 +128,7 @@
           <label>メールアドレス
             <input type="email" name="email" required autocomplete="email">
           </label>
-          <label>お問い合わせ内容
+          <label>リクエストの本・お問い合わせ内容
             <textarea name="message" rows="5" required></textarea>
           </label>
           <button type="submit" class="btn">送信する</button>
@@ -130,8 +139,8 @@
   </main>
 
   <footer class="footer">
-    <p class="logo">Café Komorebi</p>
-    <p><small>&copy; 2026 Café Komorebi. All rights reserved.</small></p>
+    <p class="logo">Book Café Komorebi</p>
+    <p><small>&copy; 2026 Book Café Komorebi. All rights reserved.</small></p>
   </footer>
 
   <script src="script.js"></script>
