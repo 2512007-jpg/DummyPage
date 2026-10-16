@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Komorebi | 木漏れ日のカフェ</title>
+  <meta name="description" content="自家焙煎コーヒーと手作りスイーツの店、Café Komorebi。ゆったりとした時間をお過ごしください。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Shippori+Mincho:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <a class="logo" href="#top">Café Komorebi</a>
+    <button class="menu-toggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <ul>
+        <li><a href="#about">私たちについて</a></li>
+        <li><a href="#menu">メニュー</a></li>
+        <li><a href="#gallery">店内の様子</a></li>
+        <li><a href="#access">アクセス</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="hero-sub">Handroasted Coffee &amp; Sweets</p>
+        <h1>木漏れ日の下で、<br>ゆっくりと一杯を。</h1>
+        <p class="hero-text">自家焙煎のコーヒーと、毎朝焼き上げるスイーツ。<br>日常の途中に、ほっとできる場所です。</p>
+        <a class="btn" href="#menu">メニューを見る</a>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container two-col">
+        <div class="about-visual" role="img" aria-label="コーヒーを淹れるイメージ"></div>
+        <div>
+          <h2 class="section-title"><span>About</span>私たちについて</h2>
+          <p>Café Komorebi は、2018年に開店した小さなカフェです。厳選した豆を店内の焙煎機で少量ずつ焙煎し、一杯ずつ丁寧にハンドドリップでお淹れします。</p>
+          <p>スイーツはすべて店内で手作り。地元の農家さんから届く旬の素材を使い、やさしい甘さに仕上げています。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="menu">
+      <div class="container">
+        <h2 class="section-title center"><span>Menu</span>メニュー</h2>
+        <div class="tabs" role="tablist">
+          <button class="tab active" role="tab" aria-selected="true" data-target="drink">ドリンク</button>
+          <button class="tab" role="tab" aria-selected="false" data-target="food">フード</button>
+          <button class="tab" role="tab" aria-selected="false" data-target="sweets">スイーツ</button>
+        </div>
+
+        <ul class="menu-list active" id="drink">
+          <li><div><h3>本日のブレンド</h3><p>やさしい酸味とコクのバランス</p></div><span class="price">¥480</span></li>
+          <li><div><h3>ハンドドリップ(シングルオリジン)</h3><p>日替わりで3種類をご用意</p></div><span class="price">¥600</span></li>
+          <li><div><h3>カフェラテ</h3><p>ミルクの甘みを引き出した一杯</p></div><span class="price">¥550</span></li>
+          <li><div><h3>抹茶オレ</h3><p>京都産の抹茶を使用</p></div><span class="price">¥600</span></li>
+          <li><div><h3>自家製ジンジャーエール</h3><p>スパイスを効かせた大人の味</p></div><span class="price">¥550</span></li>
+        </ul>
+
+        <ul class="menu-list" id="food">
+          <li><div><h3>厚切りトースト</h3><p>自家製バターとはちみつ添え</p></div><span class="price">¥650</span></li>
+          <li><div><h3>ホットサンド</h3><p>ハムとチーズ、季節の野菜</p></div><span class="price">¥850</span></li>
+          <li><div><h3>季節のスープセット</h3><p>パンとドリンク付き</p></div><span class="price">¥1,100</span></li>
+        </ul>
+
+        <ul class="menu-list" id="sweets">
+          <li><div><h3>バスクチーズケーキ</h3><p>濃厚でなめらかな口どけ</p></div><span class="price">¥600</span></li>
+          <li><div><h3>季節のタルト</h3><p>旬のフルーツをたっぷりと</p></div><span class="price">¥700</span></li>
+          <li><div><h3>焼きたてスコーン</h3><p>クロテッドクリーム、ジャム付き</p></div><span class="price">¥450</span></li>
+        </ul>
+        <p class="note">価格は税込です。</p>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="container">
+        <h2 class="section-title center"><span>Gallery</span>店内の様子</h2>
+        <div class="gallery">
+          <div class="g-item g1" role="img" aria-label="カウンター席"></div>
+          <div class="g-item g2" role="img" aria-label="窓際の席"></div>
+          <div class="g-item g3" role="img" aria-label="スイーツ"></div>
+          <div class="g-item g4" role="img" aria-label="コーヒー豆"></div>
+        </div>
+        <p class="note">※ 写真は仮の配色です。実際の写真に差し替えてください。</p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="access">
+      <div class="container two-col">
+        <div>
+          <h2 class="section-title"><span>Access</span>アクセス</h2>
+          <dl class="info">
+            <dt>住所</dt><dd>〒000-0000 東京都○○区△△ 1-2-3</dd>
+            <dt>最寄り駅</dt><dd>○○駅 徒歩5分</dd>
+            <dt>営業時間</dt><dd>8:00 - 18:00(L.O. 17:30)</dd>
+            <dt>定休日</dt><dd>毎週水曜日</dd>
+            <dt>席数</dt><dd>20席(テラス席あり)</dd>
+          </dl>
+        </div>
+        <div class="map" role="img" aria-label="地図のプレースホルダー">地図をここに埋め込みます</div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container narrow">
+        <h2 class="section-title center"><span>Contact</span>お問い合わせ</h2>
+        <form class="form" id="contact-form" novalidate>
+          <label>お名前
+            <input type="text" name="name" required autocomplete="name">
+          </label>
+          <label>メールアドレス
+            <input type="email" name="email" required autocomplete="email">
+          </label>
+          <label>お問い合わせ内容
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn">送信する</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="logo">Café Komorebi</p>
+    <p><small>&copy; 2026 Café Komorebi. All rights reserved.</small></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
